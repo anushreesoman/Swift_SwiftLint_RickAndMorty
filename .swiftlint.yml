@@ -1,8 +1,5 @@
 disabled_rules:
 - trailing_whitespace
-- unused_optional_binding
-- vertical_whitespace
-- trailing_newline
 opt_in_rules:
 - empty_count
 - empty_string
