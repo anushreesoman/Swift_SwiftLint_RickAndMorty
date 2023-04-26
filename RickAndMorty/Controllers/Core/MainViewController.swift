@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controller to show root view and tabs
 final class MainViewController: UITabBarController {
 
     override func viewDidLoad() {
