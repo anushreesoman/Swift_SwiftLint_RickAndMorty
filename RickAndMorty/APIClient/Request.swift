@@ -57,6 +57,9 @@ final class Request {
         return URL(string: urlBuilder)
     }
     
+    /// API call's http method
+    public var httpMethod = "GET"
+    
     /// Initialize request
     /// - Parameters:
     ///   - endpoint: Required endpoint
