@@ -42,6 +42,7 @@ final class Service {
                 
                 do {
                     let result = try JSONDecoder().decode(type, from: data)
+                    completion(.success(result))
                 } catch {
                     completion(.failure(error))
                 }

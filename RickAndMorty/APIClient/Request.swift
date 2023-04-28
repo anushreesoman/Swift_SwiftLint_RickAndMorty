@@ -74,3 +74,9 @@ final class Request {
     }
     
 }
+
+extension Request {
+    static let characterRequest = Request(endpoint: .character)
+    static let locationRequest = Request(endpoint: .character)
+    static let episodeRequest = Request(endpoint: .character)
+}
